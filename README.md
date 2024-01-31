@@ -77,7 +77,8 @@ Verify that the Mosquitto service is running properly. Run the following command
 Ensure that you see "mosquitto" listed with the status "started". If it's not running, you can start it with:
     
     brew services start mosquitto
-## Restart Mosquitto: Try restarting the Mosquitto service to see if that resolves the issue:
+## Restart Mosquitto: 
+Try restarting the Mosquitto service to see if that resolves the issue:
   
     brew services restart mosquitto
 
