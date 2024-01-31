@@ -82,5 +82,8 @@ Ensure that you see "mosquitto" listed with the status "started". If it's not ru
 ## Restart Mosquitto: Try restarting the Mosquitto service to see if that resolves the issue:
   
     brew services restart mosquitto
-## FireWall enable
+
+## Firewall: 
+Make sure that there are no firewall rules blocking MQTT traffic on your system. You can temporarily disable the firewall for testing purposes or configure it to allow MQTT traffic on the appropriate port (default is 1883).
+
 <img width="704" alt="image" src="https://github.com/bigheadG/Create-MQTT-server-on-ubuntu-/assets/2010446/6da8b433-c0e9-4add-8445-feaad7f32583">
