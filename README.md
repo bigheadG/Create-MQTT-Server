@@ -3,7 +3,7 @@ Create MQTT server on ubuntu
 
 
 
-ChatGPT
+
 To install an MQTT server on Linux Ubuntu, you can use Mosquitto, which is an open-source MQTT broker that implements the MQTT protocol versions 3.1 and 3.1.1. Here's how you can install Mosquitto on Ubuntu:
 
 ## Update Package Lists: 
@@ -71,5 +71,16 @@ And to subscribe to the same topic to receive messages:
     
 By following these steps, you have enabled MQTT on macOS using Mosquitto. You can now use it for various IoT or messaging applications. If you need additional features like authentication or encryption, you'll need to configure Mosquitto accordingly.
 
+
+## Ensure Mosquitto is Running: 
+Verify that the Mosquitto service is running properly. Run the following command to check its status:
+ 
+    brew services list
+Ensure that you see "mosquitto" listed with the status "started". If it's not running, you can start it with:
+    
+    brew services start mosquitto
+## Restart Mosquitto: Try restarting the Mosquitto service to see if that resolves the issue:
+  
+    brew services restart mosquitto
 ## FireWall enable
 <img width="704" alt="image" src="https://github.com/bigheadG/Create-MQTT-server-on-ubuntu-/assets/2010446/6da8b433-c0e9-4add-8445-feaad7f32583">
