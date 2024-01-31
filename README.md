@@ -1,8 +1,6 @@
-# Create-MQTT-server-on-ubuntu-
+# Create-MQTT-server on Ubuntu or MacOS
+
 Create MQTT server on ubuntu 
-
-
-
 
 To install an MQTT server on Linux Ubuntu, you can use Mosquitto, which is an open-source MQTT broker that implements the MQTT protocol versions 3.1 and 3.1.1. Here's how you can install Mosquitto on Ubuntu:
 
